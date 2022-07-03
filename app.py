@@ -38,5 +38,5 @@ def covid_stats():
 	return render_template("index.html", readerCount=visitors_count, pieChart=countryInput)
 
 #add code for executing flask
-if __name__ == "__main__":
-	webpage.run(host='127.0.0.1', port=1800)
+#if __name__ == "__main__":
+#	webpage.run(host='127.0.0.1', port=1800)
